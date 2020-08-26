@@ -27,6 +27,10 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 %MEM — процент использования оперативной памяти данным процессом
 
+#### Check virtual networks and IP
+
+- ifconfig -a
+
 ### working with hardware on Ubuntu
 
 - hwinfo --short
