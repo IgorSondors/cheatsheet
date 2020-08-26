@@ -19,6 +19,10 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 - sudo apt-get install aptitude
 - sudo aptitude safe-upgrade
 
+#### Table of processes
+
+- top
+
 ### working with hardware on Ubuntu
 
 - hwinfo --short
