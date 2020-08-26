@@ -23,6 +23,9 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 - top
 
+%CPU — процент доступного времени процессора, которое использовала запущенная программа
+%MEM — процент использования оперативной памяти данным процессом
+
 ### working with hardware on Ubuntu
 
 - hwinfo --short
