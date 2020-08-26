@@ -21,3 +21,27 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 ### working with hardware on Ubuntu
 
+- hwinfo --short
+
+#### Processor utilization
+
+![](https://github.com/IgorSondors/cheatsheet/blob/master/images/2.jpg)
+
+![](https://github.com/IgorSondors/cheatsheet/blob/master/images/3.jpg)
+
+#### Check RAM
+
+- sudo lshw -C memory
+
+### Ssh connection
+
+#### Files transfer
+
+#### Вводить на локальной машине 
+#### для переноса с локальной на удаленную
+
+- scp -r /home/sondors/Recognizer/cloud_server/neurohives root@138.68.65.54:~/cloud_server/neurohives
+
+#### для переноса с удаленной на локальную
+
+- sudo scp -r root@138.68.65.54:/~/cloud_server/neurohives  /home/sondors/Recognizer/cloud_server/neurohives
