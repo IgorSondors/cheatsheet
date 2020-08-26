@@ -18,3 +18,6 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 - sudo apt-get update
 - sudo apt-get install aptitude
 - sudo aptitude safe-upgrade
+
+### working with hardware on Ubuntu
+
