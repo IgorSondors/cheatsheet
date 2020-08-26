@@ -16,7 +16,7 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 - nvidia-smi
 
-#### first commands on new OS Ubuntu
+### First commands on new OS Ubuntu
 
 - whoami
 - sudo apt-get update
