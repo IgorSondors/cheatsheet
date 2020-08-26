@@ -12,6 +12,10 @@ https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-
 Тут установка драйвера 
 https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
+#### Check Nvidia graphic card
+
+- nvidia-smi
+
 #### first commands on new OS Ubuntu
 
 - whoami
