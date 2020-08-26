@@ -25,6 +25,8 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 #### Processor utilization
 
+Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utiliztion-eto-ne-chto-vy-dumaete) article
+
 ![](https://github.com/IgorSondors/cheatsheet/blob/master/images/2.jpg)
 
 ![](https://github.com/IgorSondors/cheatsheet/blob/master/images/3.jpg)
@@ -35,6 +37,8 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 ### Ssh connection
 
+- ssh root@ip
+
 #### Files transfer
 
 #### Вводить на локальной машине 
@@ -44,4 +48,4 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 #### для переноса с удаленной на локальную
 
-- sudo scp -r root@138.68.65.54:/~/cloud_server/neurohives  /home/sondors/Recognizer/cloud_server/neurohives
+- scp root@164.90.220.22:/~/watahell.png  /home/sondors/Recognizer/server/not_api
