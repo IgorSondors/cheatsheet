@@ -1,4 +1,4 @@
-#### If you have Nvidia graphic card that demand proprietary drivers and Ubuntu installation failed
+#### If you have Nvidia GPU that demand proprietary drivers and Ubuntu installation failed
 
 Сам с такой проблемой столкнулся , когда купил ноут с Nvidia. 
 
@@ -12,7 +12,7 @@ https://askubuntu.com/questions/162075/my-computer-boots-to-a-black-screen-what-
 Тут установка драйвера 
 https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
-#### Check Nvidia graphic card
+#### Check Nvidia GPU
 
 - nvidia-smi
 
