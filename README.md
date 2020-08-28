@@ -1,8 +1,16 @@
+### Dohod
+
 #### Commands for work with server
 
 - ssh sondors@192.168.128.44
 - Dom72Kpa5
 - cd /opt/cloud_server/
+
+#### Control version system
+
+- merge code [there](http://code.dohod.local/AI/cloud_server)
+- login: iso
+- password_new: Kap17Dom9
 
 
 #### If you have Nvidia GPU that demand proprietary drivers and Ubuntu installation failed
