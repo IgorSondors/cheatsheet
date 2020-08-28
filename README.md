@@ -1,3 +1,10 @@
+#### Commands for work with server
+
+- ssh sondors@192.168.128.44
+- Dom72Kpa5
+- cd /opt/cloud_server/
+
+
 #### If you have Nvidia GPU that demand proprietary drivers and Ubuntu installation failed
 
 Сам с такой проблемой столкнулся , когда купил ноут с Nvidia. 
@@ -65,3 +72,7 @@ Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utilizt
 #### для переноса с удаленной на локальную
 
 - scp root@164.90.220.22:/~/watahell.png  /home/sondors/Recognizer/server/not_api
+
+### Markdown cheatsheet
+
+- [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
