@@ -70,7 +70,7 @@ Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utilizt
 
 - ssh root@ip
 
-#### Files transfer
+### Files transfer
 
 #### Вводить на локальной машине 
 #### для переноса с локальной на удаленную
