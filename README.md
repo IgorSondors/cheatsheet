@@ -30,6 +30,7 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 #### Check Nvidia GPU
 
 - nvidia-smi
+- watch -n 1 nvidia-smi
 
 ### First commands on new OS Ubuntu
 
