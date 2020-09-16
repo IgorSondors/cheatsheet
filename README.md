@@ -90,6 +90,8 @@ Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utilizt
 
 ![](https://github.com/IgorSondors/cheatsheet/blob/master/images/failed_conv.jpg)
 
+- Чекай [документацию](https://www.tensorflow.org/guide/gpu)
+
 - TF дефолтно занимает всю память, это ее освобождает
 ```python
 
