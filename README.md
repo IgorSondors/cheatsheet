@@ -85,3 +85,37 @@ Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utilizt
 ### Markdown cheatsheet
 
 - [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+### Errors that was problem for me
+
+![](https://github.com/IgorSondors/cheatsheet/blob/master/images/failed_conv.jpg)
+
+- TF дефолтно занимает всю память, это ее освобождает
+```python
+
+import tensorflow as tf
+gpus = tf.config.experimental.list_physical_devices('GPU')
+if gpus:
+    # Restrict TensorFlow to only allocate 6GB of memory on the first GPU
+    try:
+        tf.config.experimental.set_virtual_device_configuration(
+            gpus[0],
+            [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=6144)])
+        logical_gpus = tf.config.experimental.list_logical_devices('GPU')
+        print(len(gpus), "Physical GPUs,", len(logical_gpus), "Logical GPUs")
+    except RuntimeError as e:
+        # Virtual devices must be set before GPUs have been initialized
+        print(e)
+```
+- Для проверки выполнения работы TF на GPU
+
+```python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+import tensorflow as tf
+if tf.test.is_built_with_cuda() and tf.test.is_gpu_available(cuda_only=False, min_cuda_compute_capability=None):
+    print('You can use GPU')
+
+else:
+    print('TF can not use GPU')
+```
