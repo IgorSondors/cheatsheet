@@ -59,6 +59,8 @@ https://askubuntu.com/questions/47506/how-do-i-install-additional-drivers
 
 Check [this](https://romka.eu/blog/metrika-zagruzhennosti-processora-cpu-utiliztion-eto-ne-chto-vy-dumaete) article
 
+- sudo perf stat -a --sleep 10
+
 ![](https://github.com/IgorSondors/cheatsheet/blob/master/images/2.jpg)
 
 ![](https://github.com/IgorSondors/cheatsheet/blob/master/images/3.jpg)
