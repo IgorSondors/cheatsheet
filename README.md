@@ -135,11 +135,25 @@ curl -fsSL get.docker.com -o get-docker.sh
 sh get-docker.sh
 
 ```
+- install docker-machine
+
 ```bash
 
 base=https://github.com/docker/machine/releases/download/v0.16.0 &&
   curl -L $base/docker-machine-$(uname -s)-$(uname -m) >/tmp/docker-machine &&
   sudo mv /tmp/docker-machine /usr/local/bin/docker-machine &&
   chmod +x /usr/local/bin/docker-machine
-  
+ 
   ```
+  - install docker compose
+  ```bash
+  
+  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+```
+
+```bash
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+```
