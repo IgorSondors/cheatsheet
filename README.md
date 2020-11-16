@@ -123,3 +123,16 @@ if tf.test.is_built_with_cuda() and tf.test.is_gpu_available(cuda_only=False, mi
 else:
     print('TF can not use GPU')
 ```
+### Docker install and commands
+
+```shell
+
+curl -fsSL get.docker.com -o get-docker.sh
+
+```
+```shell
+
+sh get-docker.sh
+
+```
+
