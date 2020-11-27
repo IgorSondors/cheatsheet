@@ -125,6 +125,8 @@ else:
 ```
 ### Docker install and commands
 
+#### Installation
+
 ```shell
 
 curl -fsSL get.docker.com -o get-docker.sh
@@ -158,4 +160,21 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ```
 
+#### Docker image create and push
+
+```bash
+sudo docker container run -it -p 8080:8080 ubuntu:18.04
+```
+
+```bash
+sudo docker container commit amazing_montalcini
+```
+
+```bash
+sudo docker image tag a7fd027daf79 igorsondors/cloud_server
+```
+
+```bash
+sudo docker image push igorsondors/cloud_server
+```
 
