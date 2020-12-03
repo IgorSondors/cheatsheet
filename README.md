@@ -180,7 +180,7 @@ sudo docker image push igorsondors/cloud_server
 - for creation of image with Dockerfile
 
 ```bash
-docker build . --tag pyramid
+sudo docker build . --tag pyramid
 ```
 
 
