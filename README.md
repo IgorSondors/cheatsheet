@@ -177,4 +177,10 @@ sudo docker image tag a7fd027daf79 igorsondors/cloud_server
 ```bash
 sudo docker image push igorsondors/cloud_server
 ```
+- for creation of image with Dockerfile
+
+```bash
+docker build . --tag pyramid
+```
+
 
