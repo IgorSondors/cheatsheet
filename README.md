@@ -183,4 +183,30 @@ sudo docker image push igorsondors/cloud_server
 sudo docker build . --tag pyramid
 ```
 
+####
 
+```
+git clone https://github.com/IgorSondors/123.git
+```
+```
+cd 123
+```
+```
+git init
+```
+```
+git add README.md
+```
+```
+git commit -m "first commit"
+```
+```
+git branch -M main
+```
+Команда ниже не нужна при git clone
+```
+git remote add origin https://github.com/IgorSondors/123.git
+```
+```
+git push -u origin main
+```
