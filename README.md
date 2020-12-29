@@ -195,3 +195,7 @@ git remote add origin https://github.com/IgorSondors/123.git
 ```
 git push -u origin main
 ```
+
+#### Coding styles
+
+- [link](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103)
