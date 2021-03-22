@@ -199,3 +199,17 @@ git push -u origin main
 #### Docstring styles
 
 - [link](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103)
+
+#### Synth generators
+
+- [Max Jaderberg's word-level renderer](https://bitbucket.org/jaderberg/text-renderer/src/master/) - генератор полос, на который ссылался Ankush
+- [trdg](https://github.com/Belval/TextRecognitionDataGenerator/tree/master/trdg) - генератор полос с различными модами включающими в себя кастомные бэкграунды, шумы повороты, рукописный текст
+- [SynthText](https://github.com/ankush-me/SynthText) - OCR in the wild генератор, текст имеет структуры бэкграунда, но иногда рендерится слабо видимым
+- [Sanster](https://github.com/Sanster/text_renderer) - генератор полос с поддержкой GPU вычислений
+
+#### Datasets
+
+-[ICDAR](https://rrc.cvc.uab.es/?ch=15) - реальный датасет для локализации следующих языков Chinese, Japanese, Korean, English, French, Arabic, Italian, German and Indian
+-[TotalText](https://github.com/cs-chan/Total-Text-Dataset) - 1500 реальных картинок изогнутого eng текста с разметкой полигонами и метками 
+-[MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) - 10Gb eng синтетические полосы Jaderberg
+-[SynthText in the Wild dataset (41G)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) - dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
