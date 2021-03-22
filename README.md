@@ -213,6 +213,9 @@ git push -u origin main
 
 - [TotalText](https://github.com/cs-chan/Total-Text-Dataset) - 1500 реальных картинок изогнутого eng текста с разметкой полигонами и метками 
 
+- [The Street View Text Dataset](http://vision.ucsd.edu/~kai/svt/) - real data
+
 - [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) - 10Gb eng синтетические полосы Jaderberg
 
 - [SynthText in the Wild dataset (41G)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) - dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
+
