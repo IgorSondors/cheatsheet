@@ -209,10 +209,10 @@ git push -u origin main
 
 #### Datasets
 
--[ICDAR](https://rrc.cvc.uab.es/?ch=15) - реальный датасет для локализации следующих языков Chinese, Japanese, Korean, English, French, Arabic, Italian, German and Indian
+- [ICDAR](https://rrc.cvc.uab.es/?ch=15) - реальный датасет для локализации следующих языков Chinese, Japanese, Korean, English, French, Arabic, Italian, German and Indian
 
--[TotalText](https://github.com/cs-chan/Total-Text-Dataset) - 1500 реальных картинок изогнутого eng текста с разметкой полигонами и метками 
+- [TotalText](https://github.com/cs-chan/Total-Text-Dataset) - 1500 реальных картинок изогнутого eng текста с разметкой полигонами и метками 
 
--[MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) - 10Gb eng синтетические полосы Jaderberg
+- [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) - 10Gb eng синтетические полосы Jaderberg
 
--[SynthText in the Wild dataset (41G)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) - dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
+- [SynthText in the Wild dataset (41G)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) - dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
