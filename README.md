@@ -200,14 +200,14 @@ git push -u origin main
 
 - [link](https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format/24385103#24385103)
 
-#### Synth generators
+#### OCR Synth generators
 
 - [Max Jaderberg's word-level renderer](https://bitbucket.org/jaderberg/text-renderer/src/master/) - генератор полос, на который ссылался Ankush
 - [trdg](https://github.com/Belval/TextRecognitionDataGenerator/tree/master/trdg) - генератор полос с различными модами включающими в себя кастомные бэкграунды, шумы повороты, рукописный текст
 - [SynthText](https://github.com/ankush-me/SynthText) - OCR in the wild генератор, текст имеет структуры бэкграунда, но иногда рендерится слабо видимым
 - [Sanster](https://github.com/Sanster/text_renderer) - генератор полос с поддержкой GPU вычислений
 
-#### Datasets
+#### OCR Datasets
 
 - [ICDAR](https://rrc.cvc.uab.es/?ch=15) - реальный датасет для локализации следующих языков Chinese, Japanese, Korean, English, French, Arabic, Italian, German and Indian
 
