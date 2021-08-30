@@ -218,4 +218,5 @@ git push -u origin main
 - [MJSynth](https://www.robots.ox.ac.uk/~vgg/data/text/) - 10Gb eng синтетические полосы Jaderberg
 
 - [SynthText in the Wild dataset (41G)](https://www.robots.ox.ac.uk/~vgg/data/scenetext/) - dataset consists of 800 thousand images with approximately 8 million synthetic word instances. Each text instance is annotated with its text-string, word-level and character-level bounding-boxes.
+- [DDI-100](https://github.com/machine-intelligence-laboratory/DDI-100) - Distorted Document Images dataset (Russian included)
 
